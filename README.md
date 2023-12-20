@@ -1,6 +1,6 @@
 # TSAlign
 
-TSAlign is a really fast Python package for aligning 1D time series data. It provides several functions to compute distances between time series and align them based on these distances. This package is particularly useful in signal processing, time series analysis, and similar domains where alignment of time series data is a common task.
+TSAlign is a simple and fast Python package for aligning 1D time series data. It provides several functions to compute distances between time series and align them based on these distances. This package is particularly useful in signal processing, time series analysis, and similar domains where alignment of time series data is a common task.
 
 ## Features
 
@@ -82,6 +82,21 @@ plt.show()
 
 ## Visualization
 ![image](https://github.com/nexus1203/TSAlign/blob/main/examples/figures/alignment.png)
+
+## Benchmarks
+![image](https://github.com/nexus1203/TSAlign/blob/main/benchmarks/benchmark.png)
+
+### Benchmark Stats
+| Array Size | Mean Time (s) | Standard Deviation (s) |
+|------------|---------------|------------------------|
+| 1.0e+01    | 0.000265      | 0.000068               |
+| 1.0e+02    | 0.000272      | 0.000072               |
+| 1.0e+03    | 0.000330      | 0.000121               |
+| 1.0e+04    | 0.000841      | 0.000303               |
+| 1.0e+05    | 0.010003      | 0.001382               |
+| 1.0e+06    | 0.108963      | 0.014162               |
+| 1.0e+07    | 1.150634      | 0.203717               |
+
 
 :memo: License
 This project is licensed under the MIT License. See LICENSE for more details.
