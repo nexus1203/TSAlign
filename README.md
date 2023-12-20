@@ -76,7 +76,7 @@ plt.show()
 ```
 
 ## Visualization
-
+![image](https://github.com/nexus1203/TSAlign/blob/main/examples/figures/alignment.png)
 
 :memo: License
 This project is licensed under the MIT License. See LICENSE for more details.
