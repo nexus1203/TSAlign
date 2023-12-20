@@ -16,6 +16,11 @@ Clone the repository:
 git clone https://github.com/nexus1203/TSAlign.git
 cd TSAlign
 ```
+or install locally using setup.py
+
+```bash
+python setup.py install
+```
 
 ## Usage
 The primary functionality of TSAlign is to align two time series based on a specified distance metric. The available distance metrics are:
